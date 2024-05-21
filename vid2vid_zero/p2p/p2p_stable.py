@@ -21,7 +21,8 @@ from . import ptp_utils
 from . import seq_aligner
 from transformers import CLIPTextModel, CLIPTokenizer
 
-pretrained_model_path = "checkpoints/stable-diffusion-v1-4/"
+# pretrained_model_path = "checkpoints/stable-diffusion-v1-4/"
+pretrained_model_path = "runwayml/stable-diffusion-v1-5"
 ldm_stable = None
 tokenizer = CLIPTokenizer.from_pretrained(pretrained_model_path, subfolder="tokenizer")
 

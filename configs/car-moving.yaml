@@ -1,4 +1,4 @@
-pretrained_model_path: checkpoints/stable-diffusion-v1-4
+pretrained_model_path: runwayml/stable-diffusion-v1-5
 output_dir: outputs/car-moving
 input_data:
   video_path: data/car-moving.mp4
